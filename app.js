@@ -22,8 +22,8 @@ function draw() {
                 divSquare.tagName = "div";
                 divSquare.className = "div1";
                 divSquare.style.background = selectedColor;
-                divContainer.setAttribute('style', 'grid-template-columns: repeat(' + size + ', 1fr)');
-               // divContainer.setAttribute('style', 'grid-template-rows: repeat(' + size + ', 1fr)');
+                divContainer.setAttribute('style', 'grid-template-columns: repeat(' + size + ', auto)');
+               // divContainer.setAttribute('style', 'grid-template-rows: repeat(' + size + ', auto)');
                 if (i === j) {
                     divSquare.style.background = 'yellow';
                 }
