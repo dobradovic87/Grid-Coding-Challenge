@@ -19,7 +19,6 @@ function draw() {
         for (let i = 0; i < size; i++) {
             for (let j = 0; j < size; j++) {
                 var divSquare = document.createElement('div');
-                divSquare.tagName = "div";
                 divSquare.className = "div1";
                 divSquare.style.background = selectedColor;
                 divContainer.setAttribute('style', 'grid-template-columns: repeat(' + size + ', auto)');
